@@ -1,0 +1,4 @@
+7bf25d6af469b68f9871111c61cb69e684374a50e0108d1fdca7c85e578204e0  vulnerability-agent-linux-amd64
+888cc5f9a715ecd14e2956bc2edde156b2eaf7eb6377d80b0b6efead2f93a121  vulnerability-agent-linux-arm64
+ad78e7565610e33c7a9a6d89141e2b41be6e3a08dac5d0702c0978ef1916c93f  install-agent-setup.tar.gz
+2f3722d6615222f178e537c26870139ff6b8567a9139f285d5e162a99ae0ffc5  install.sh
