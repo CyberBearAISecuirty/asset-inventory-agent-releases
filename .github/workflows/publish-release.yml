@@ -31,6 +31,12 @@ jobs:
           test -s install-agent-setup.tar.gz
           test -s install.sh
           test -s SHA256SUMS
+          # The public release intentionally contains Ubuntu assets only.
+          sha256sum \
+            vulnerability-agent-linux-amd64 \
+            vulnerability-agent-linux-arm64 \
+            install-agent-setup.tar.gz \
+            install.sh > SHA256SUMS
           sha256sum --check SHA256SUMS
           mkdir -p dist
           cp vulnerability-agent-linux-amd64 vulnerability-agent-linux-arm64 install-agent-setup.tar.gz install.sh SHA256SUMS dist/
